@@ -51,5 +51,7 @@ func testMap () {
 
 func main() {
 
+	testStruct()
+	testMap()
 
 }
