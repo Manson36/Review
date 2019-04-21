@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="982244dd-c9e0-4780-93d4-65e2b9653f77" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chapter14/practice07/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/chapter14/practice07/main.go" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -13,18 +12,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/chapter14/practice01/main.go">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="228">
-              <caret line="12" column="5" selection-start-line="9" selection-start-column="4" selection-end-line="12" selection-end-column="5" />
-              <folding>
-                <element signature="e#14#37#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/chapter14/practice02/main.go">
           <provider selected="true" editor-type-id="text-editor">
@@ -88,14 +75,35 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/chapter14/practice08/main.go">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="210">
-              <caret line="43" column="18" lean-forward="true" selection-start-line="43" selection-start-column="18" selection-end-line="43" selection-end-column="18" />
+              <caret line="43" column="18" selection-start-line="43" selection-start-column="18" selection-end-line="43" selection-end-column="18" />
               <folding>
                 <element signature="e#14#48#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/chapter15/monster/monster.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="965">
+              <caret line="52" column="15" selection-start-line="52" selection-start-column="15" selection-end-line="52" selection-end-column="15" />
+              <folding>
+                <element signature="e#17#51#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/chapter15/monster/moster_test.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="247">
+              <caret line="22" column="21" lean-forward="true" selection-start-line="22" selection-start-column="21" selection-end-line="22" selection-end-column="21" />
             </state>
           </provider>
         </entry>
@@ -128,6 +136,8 @@
         <option value="$PROJECT_DIR$/chapter14/practice06/main.go" />
         <option value="$PROJECT_DIR$/chapter14/practice07/main.go" />
         <option value="$PROJECT_DIR$/chapter14/practice08/main.go" />
+        <option value="$PROJECT_DIR$/chapter15/monster/monster.go" />
+        <option value="$PROJECT_DIR$/chapter15/monster/moster_test.go" />
       </list>
     </option>
   </component>
@@ -153,55 +163,13 @@
             <path>
               <item name="review" type="b2602c69:ProjectViewProjectNode" />
               <item name="review" type="462c0819:PsiDirectoryNode" />
-              <item name="chapter14" type="462c0819:PsiDirectoryNode" />
+              <item name="chapter15" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="review" type="b2602c69:ProjectViewProjectNode" />
               <item name="review" type="462c0819:PsiDirectoryNode" />
-              <item name="chapter14" type="462c0819:PsiDirectoryNode" />
-              <item name="practice01" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="review" type="b2602c69:ProjectViewProjectNode" />
-              <item name="review" type="462c0819:PsiDirectoryNode" />
-              <item name="chapter14" type="462c0819:PsiDirectoryNode" />
-              <item name="practice02" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="review" type="b2602c69:ProjectViewProjectNode" />
-              <item name="review" type="462c0819:PsiDirectoryNode" />
-              <item name="chapter14" type="462c0819:PsiDirectoryNode" />
-              <item name="practice03" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="review" type="b2602c69:ProjectViewProjectNode" />
-              <item name="review" type="462c0819:PsiDirectoryNode" />
-              <item name="chapter14" type="462c0819:PsiDirectoryNode" />
-              <item name="practice04" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="review" type="b2602c69:ProjectViewProjectNode" />
-              <item name="review" type="462c0819:PsiDirectoryNode" />
-              <item name="chapter14" type="462c0819:PsiDirectoryNode" />
-              <item name="practice05" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="review" type="b2602c69:ProjectViewProjectNode" />
-              <item name="review" type="462c0819:PsiDirectoryNode" />
-              <item name="chapter14" type="462c0819:PsiDirectoryNode" />
-              <item name="practice06" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="review" type="b2602c69:ProjectViewProjectNode" />
-              <item name="review" type="462c0819:PsiDirectoryNode" />
-              <item name="chapter14" type="462c0819:PsiDirectoryNode" />
-              <item name="practice07" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="review" type="b2602c69:ProjectViewProjectNode" />
-              <item name="review" type="462c0819:PsiDirectoryNode" />
-              <item name="chapter14" type="462c0819:PsiDirectoryNode" />
-              <item name="practice08" type="462c0819:PsiDirectoryNode" />
+              <item name="chapter15" type="462c0819:PsiDirectoryNode" />
+              <item name="monster" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="review" type="b2602c69:ProjectViewProjectNode" />
@@ -234,16 +202,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Go Build.go build main.go">
-    <configuration name="go build main.go (2)" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
-      <module name="review" />
-      <working_directory value="$PROJECT_DIR$/" />
-      <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/chapter14/practice03/main.go" />
-      <package value="github.com/review" />
-      <directory value="$PROJECT_DIR$/" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Go Test.TestStore in github.com/review/chapter15/monster">
     <configuration name="go build main.go (3)" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="review" />
       <working_directory value="$PROJECT_DIR$/" />
@@ -280,15 +239,31 @@
       <directory value="$PROJECT_DIR$/" />
       <method v="2" />
     </configuration>
+    <configuration name="TestStore in github.com/review/chapter15/monster" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="review" />
+      <working_directory value="$PROJECT_DIR$/chapter15/monster" />
+      <framework value="gotest" />
+      <kind value="PACKAGE" />
+      <package value="github.com/review/chapter15/monster" />
+      <directory value="$PROJECT_DIR$/" />
+      <filePath value="$PROJECT_DIR$/" />
+      <pattern value="^TestStore$" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Test.TestStore in github.com/review/chapter15/monster" />
         <item itemvalue="Go Build.go build main.go" />
         <item itemvalue="Go Build.go build main.go (5)" />
         <item itemvalue="Go Build.go build main.go (4)" />
         <item itemvalue="Go Build.go build main.go (3)" />
-        <item itemvalue="Go Build.go build main.go (2)" />
       </list>
     </recent_temporary>
+  </component>
+  <component name="TestHistory">
+    <history-entry file="TestStore_in_github_com_review_chapter15_monster - 2019.04.21 at 20h 46m 12s.xml">
+      <configuration name="TestStore in github.com/review/chapter15/monster" configurationId="GoTestRunConfiguration" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -395,10 +370,27 @@
     <entry file="file://$PROJECT_DIR$/chapter14/practice08/main.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
-          <caret line="43" column="18" lean-forward="true" selection-start-line="43" selection-start-column="18" selection-end-line="43" selection-end-column="18" />
+          <caret line="43" column="18" selection-start-line="43" selection-start-column="18" selection-end-line="43" selection-end-column="18" />
           <folding>
             <element signature="e#14#48#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chapter15/monster/monster.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="965">
+          <caret line="52" column="15" selection-start-line="52" selection-start-column="15" selection-end-line="52" selection-end-column="15" />
+          <folding>
+            <element signature="e#17#51#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chapter15/monster/moster_test.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="22" column="21" lean-forward="true" selection-start-line="22" selection-start-column="21" selection-end-line="22" selection-end-column="21" />
         </state>
       </provider>
     </entry>
