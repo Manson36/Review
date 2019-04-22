@@ -48,11 +48,35 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/chapter16/practice04/main.go">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="285">
-              <caret line="15" column="17" lean-forward="true" selection-start-line="15" selection-start-column="17" selection-end-line="15" selection-end-column="17" />
+              <caret line="15" column="17" selection-start-line="15" selection-start-column="17" selection-end-line="15" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/chapter16/practice05/main.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="281">
+              <caret line="34" selection-start-line="34" selection-end-line="34" />
+              <folding>
+                <element signature="e#14#60#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/chapter16/practice06/main.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="224">
+              <caret line="72" column="25" selection-start-line="72" selection-start-column="25" selection-end-line="72" selection-end-column="25" />
+              <folding>
+                <element signature="e#14#39#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -80,6 +104,8 @@
         <option value="$PROJECT_DIR$/chapter16/practice02/main.go" />
         <option value="$PROJECT_DIR$/chapter16/practice03/main.go" />
         <option value="$PROJECT_DIR$/chapter16/practice04/main.go" />
+        <option value="$PROJECT_DIR$/chapter16/practice05/main.go" />
+        <option value="$PROJECT_DIR$/chapter16/practice06/main.go" />
       </list>
     </option>
   </component>
@@ -134,6 +160,18 @@
             <path>
               <item name="review" type="b2602c69:ProjectViewProjectNode" />
               <item name="review" type="462c0819:PsiDirectoryNode" />
+              <item name="chapter16" type="462c0819:PsiDirectoryNode" />
+              <item name="practice05" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="review" type="b2602c69:ProjectViewProjectNode" />
+              <item name="review" type="462c0819:PsiDirectoryNode" />
+              <item name="chapter16" type="462c0819:PsiDirectoryNode" />
+              <item name="practice06" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="review" type="b2602c69:ProjectViewProjectNode" />
+              <item name="review" type="462c0819:PsiDirectoryNode" />
               <item name="project01" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -162,16 +200,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Go Build.go build main.go">
-    <configuration name="go build main.go (1)" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
-      <module name="review" />
-      <working_directory value="$PROJECT_DIR$/" />
-      <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/chapter16/practice01/main.go" />
-      <package value="github.com/review" />
-      <directory value="$PROJECT_DIR$/" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Go Build.go build main.go (5)">
     <configuration name="go build main.go (2)" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="review" />
       <working_directory value="$PROJECT_DIR$/" />
@@ -190,6 +219,24 @@
       <directory value="$PROJECT_DIR$/" />
       <method v="2" />
     </configuration>
+    <configuration name="go build main.go (4)" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="review" />
+      <working_directory value="$PROJECT_DIR$/" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/chapter16/practice05/main.go" />
+      <package value="github.com/review" />
+      <directory value="$PROJECT_DIR$/" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build main.go (5)" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="review" />
+      <working_directory value="$PROJECT_DIR$/" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/chapter16/practice06/main.go" />
+      <package value="github.com/review" />
+      <directory value="$PROJECT_DIR$/" />
+      <method v="2" />
+    </configuration>
     <configuration name="go build main.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="review" />
       <working_directory value="$PROJECT_DIR$/" />
@@ -199,24 +246,13 @@
       <directory value="$PROJECT_DIR$/" />
       <method v="2" />
     </configuration>
-    <configuration name="TestReStore in github.com/review/chapter15/monster" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
-      <module name="review" />
-      <working_directory value="$PROJECT_DIR$/chapter15/monster" />
-      <framework value="gotest" />
-      <kind value="PACKAGE" />
-      <package value="github.com/review/chapter15/monster" />
-      <directory value="$PROJECT_DIR$/" />
-      <filePath value="$PROJECT_DIR$/" />
-      <pattern value="^TestReStore$" />
-      <method v="2" />
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Build.go build main.go (5)" />
+        <item itemvalue="Go Build.go build main.go (4)" />
         <item itemvalue="Go Build.go build main.go" />
         <item itemvalue="Go Build.go build main.go (3)" />
         <item itemvalue="Go Build.go build main.go (2)" />
-        <item itemvalue="Go Build.go build main.go (1)" />
-        <item itemvalue="Go Test.TestReStore in github.com/review/chapter15/monster" />
       </list>
     </recent_temporary>
   </component>
@@ -397,7 +433,27 @@
     <entry file="file://$PROJECT_DIR$/chapter16/practice04/main.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="285">
-          <caret line="15" column="17" lean-forward="true" selection-start-line="15" selection-start-column="17" selection-end-line="15" selection-end-column="17" />
+          <caret line="15" column="17" selection-start-line="15" selection-start-column="17" selection-end-line="15" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chapter16/practice05/main.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="281">
+          <caret line="34" selection-start-line="34" selection-end-line="34" />
+          <folding>
+            <element signature="e#14#60#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chapter16/practice06/main.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="224">
+          <caret line="72" column="25" selection-start-line="72" selection-start-column="25" selection-end-line="72" selection-end-column="25" />
+          <folding>
+            <element signature="e#14#39#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
