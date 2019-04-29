@@ -1,10 +1,62 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+	"github.com/review/project08/model"
+	"github.com/review/project08/service"
+)
 
 type customerView struct {
 	key int
 	loop bool
+
+	customerService *service.CustomerService
+}
+
+//得到用户的输入， 构建新用户，并完成添加
+func (this *customerView)add() {
+
+	fmt.Println("--------添加客户------")
+	fmt.Println("姓名")
+	name := ""
+	fmt.Scanln(&name)
+	fmt.Println("性别")
+	gender := ""
+	fmt.Scanln(&gender)
+	fmt.Println("年龄：")
+	age := 0
+	fmt.Scanln(&age)
+	fmt.Println("电话")
+	phone := ""
+	fmt.Scanln(&phone)
+	fmt.Println("email")
+	email := ""
+	fmt.Scanln(&email)
+
+	//构建一个新的Customer实例，无id
+	customer := model.NewCustomer2(name, gender, age, phone, email )
+	//调用
+	if this.customerService.Add(customer) {
+		fmt.Println("-------添加完成--------")
+	} else {
+		fmt.Println("-------添加失败--------")
+	}
+}
+
+//显示所有客户所有信息
+func (this *customerView)list() {
+
+	//首先，获取当前所有的客户信息
+	customers := this.customerService.List()
+
+	//显示
+	fmt.Println("----------客户列表----------")
+	fmt.Println("编号\t姓名\t性别\t年龄\t电话\t邮箱")
+	for i := 1; i < len(customers); i ++ {
+
+		fmt.Println(customers[i].GetInfo())
+	}
+	fmt.Println("\n----------客户列表完成----------\n")
 }
 
 //显示主菜单
@@ -22,13 +74,15 @@ func (this *customerView)mainMenu() {
 		fmt.Scanln(&this.key)
 		switch this.key {
 		case 1:
-			fmt.Println("添加客户")
+			//fmt.Println("添加客户")
+			this.add()
 		case 2:
 			fmt.Println("修改客户")
 		case 3:
 			fmt.Println("删除客户")
 		case 4:
-			fmt.Println("客户列表")
+			//fmt.Println("客户列表")
+			this.list()
 		case 5:
 			this.loop = false
 		default:
@@ -49,5 +103,8 @@ func main() {
 		key:0,
 		loop:true,
 	}
+	//这里完成对customerView结构体的customerService字段的初始化
+	customerView.customerService = service.NewCustomerService()
+	//显示主菜单
 	customerView.mainMenu()
 }
