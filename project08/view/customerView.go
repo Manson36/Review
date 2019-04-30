@@ -13,6 +13,46 @@ type customerView struct {
 	customerService *service.CustomerService
 }
 
+func (this *customerView)exit() {
+
+	fmt.Println("确认是否退出（y/n）：")
+	choice := ""
+	for {
+		fmt.Scanln(&this.key)
+		if choice == "y" || choice == "n" {
+			break
+		}
+		fmt.Println("你的输入有误，请重新输入")
+	}
+	if choice == "y" {
+		this.loop = false
+	}
+
+}
+
+//得到用户输入的id，然后删除
+func (this *customerView) delete() {
+
+	fmt.Println("--------删除用户------")
+	fmt.Println("请输入要删除的id")
+	id := -1
+	fmt.Println(&id)
+	if id == -1 {
+		return
+	}
+	fmt.Println("请确认是否删除（y/n）：")
+	choice := ""
+	fmt.Scanln(&choice)
+	if choice == "y" {
+		//调用service的Delete方法
+		if this.customerService.Delete(id) {
+			fmt.Println("--------删除完成--------")
+		}else {
+			fmt.Println("--------删除完成--------")
+		}
+	}
+}
+
 //得到用户的输入， 构建新用户，并完成添加
 func (this *customerView)add() {
 
