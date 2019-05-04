@@ -51,13 +51,25 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/project11/client/main.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="368">
-              <caret line="50" column="47" lean-forward="true" selection-start-line="50" selection-start-column="47" selection-end-line="50" selection-end-column="47" />
+            <state relative-caret-position="380">
+              <caret line="20" selection-start-line="20" selection-end-line="20" />
               <folding>
                 <element signature="e#14#38#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/project12/main.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="520">
+              <caret line="48" column="4" selection-start-line="48" selection-start-column="4" selection-end-line="48" selection-end-column="4" />
+              <folding>
+                <element signature="e#14#42#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -104,6 +116,7 @@
         <option value="$PROJECT_DIR$/project10/main.go" />
         <option value="$PROJECT_DIR$/project11/server/main.go" />
         <option value="$PROJECT_DIR$/project11/client/main.go" />
+        <option value="$PROJECT_DIR$/project12/main.go" />
       </list>
     </option>
   </component>
@@ -128,24 +141,7 @@
             <path>
               <item name="review" type="b2602c69:ProjectViewProjectNode" />
               <item name="review" type="462c0819:PsiDirectoryNode" />
-              <item name="project10" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="review" type="b2602c69:ProjectViewProjectNode" />
-              <item name="review" type="462c0819:PsiDirectoryNode" />
-              <item name="project11" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="review" type="b2602c69:ProjectViewProjectNode" />
-              <item name="review" type="462c0819:PsiDirectoryNode" />
-              <item name="project11" type="462c0819:PsiDirectoryNode" />
-              <item name="client" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="review" type="b2602c69:ProjectViewProjectNode" />
-              <item name="review" type="462c0819:PsiDirectoryNode" />
-              <item name="project11" type="462c0819:PsiDirectoryNode" />
-              <item name="server" type="462c0819:PsiDirectoryNode" />
+              <item name="project12" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -174,7 +170,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Go Build.go build main.go">
+  <component name="RunManager" selected="Go Build.go build main.go (4)">
     <configuration name="go build main.go (1)" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="review" />
       <working_directory value="$PROJECT_DIR$/" />
@@ -202,11 +198,11 @@
       <directory value="$PROJECT_DIR$/" />
       <method v="2" />
     </configuration>
-    <configuration name="go build main.go (5)" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+    <configuration name="go build main.go (4)" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="review" />
       <working_directory value="$PROJECT_DIR$/" />
       <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/chapter16/practice06/main.go" />
+      <filePath value="$PROJECT_DIR$/project12/main.go" />
       <package value="github.com/review" />
       <directory value="$PROJECT_DIR$/" />
       <method v="2" />
@@ -222,11 +218,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Build.go build main.go (4)" />
         <item itemvalue="Go Build.go build main.go" />
         <item itemvalue="Go Build.go build main.go (3)" />
         <item itemvalue="Go Build.go build main.go (2)" />
         <item itemvalue="Go Build.go build main.go (1)" />
-        <item itemvalue="Go Build.go build main.go (5)" />
       </list>
     </recent_temporary>
   </component>
@@ -559,10 +555,20 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/project11/client/main.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="368">
-          <caret line="50" column="47" lean-forward="true" selection-start-line="50" selection-start-column="47" selection-end-line="50" selection-end-column="47" />
+        <state relative-caret-position="380">
+          <caret line="20" selection-start-line="20" selection-end-line="20" />
           <folding>
             <element signature="e#14#38#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project12/main.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="520">
+          <caret line="48" column="4" selection-start-line="48" selection-start-column="4" selection-end-line="48" selection-end-column="4" />
+          <folding>
+            <element signature="e#14#42#0" expanded="true" />
           </folding>
         </state>
       </provider>
