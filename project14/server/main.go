@@ -9,6 +9,48 @@ import (
 	"net"
 )
 
+func serverProcessLogin(conn net.Conn, mes *message.Message)(err error) {
+
+	var loginMes message.LoginMes
+	err = json.Unmarshal([]byte(mes.Data), &loginMes)
+	if err!= nil {
+		fmt.Println("json.Unmarshal err", err)
+		return
+	}
+	var resMes message.Message
+	resMes.Type = message.LoginResMesType
+	var loginResMes message.LoginResMes
+	if loginMes.UserId == 100 && loginMes.UserPwd == "123456" {
+		loginResMes.Code = 200
+	}else {
+		//不合法
+		loginResMes.Code = 500
+		loginResMes.Error = "该用户不存在，请注册后使用"
+	}
+
+	data, err := json.Marshal(loginResMes)
+	if err!= nil {
+		fmt.Println("json.Marshal err", err)
+		return
+	}
+}
+
+//编写一个ServerProcessMes函数，
+//功能：根据客户端发送的消息种类不同，调用不同的函数
+func serverProcessMes(conn net.Conn, mes *message.Message) (err error) {
+
+	switch mes.Type {
+	case message.LoginMesType :
+		//处理登陆
+		err = serverProcessLogin(conn , mes)
+	case message.RegisterMesType:
+		//处理注册
+		default:
+		fmt.Println("消息类型不存在")
+	}
+	return
+}
+
 func readPkg(conn net.Conn)(mes message.Message, err error) {
 
 	buf := make([]byte, 8096)
@@ -50,7 +92,11 @@ func process(conn net.Conn) {
 				return
 			}
 		}
-		fmt.Println("mes=", mes)
+		//fmt.Println("mes=", mes)
+		err = serverProcessMes(conn, &mes)
+		if err != nil {
+			return
+		}
 	}
 }
 
